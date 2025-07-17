@@ -1,0 +1,5 @@
+@charset "utf-8";
+/* CSS Document */
+
+#wrapper {width:900px; height: 700px;}
+#intro {position: fixed; padding:-10px;margin: -10px;}

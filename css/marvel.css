@@ -1,0 +1,68 @@
+@charset "utf-8";
+/* CSS Document */
+body { background-color: black; width:1470px;margin-left: 0.2px;}
+header {margin-top: -8px;
+  width: 100%;
+  height: 80px;
+  background-color: #F6CC26;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+
+.game-title {
+  float: left;
+  font-size: 60px;       /* make it big */
+  font-weight: bold;     /* bold style */
+  color: black;        /* optional purple to match your theme */
+  margin-top: -10px;
+}
+
+.video-container {
+  position: relative;
+  width: 100%;
+  height:670px;
+  overflow: hidden;
+}
+
+video {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.game-showcase {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 2rem;
+  padding: 80px 5%;
+  flex-wrap: wrap;
+}
+
+.game-description {
+  flex: 1;
+  min-width: 300px;
+  color: #F6CC26; /* optional - matches your site */
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.game-description h2 {
+  margin-bottom: 1rem;
+  color: #F6CC26;
+  font-size: 28px;
+}
+
+.game-video {
+  flex: 1;
+  min-width: 300px;
+}
+
+.game-video video {
+  width: 100%;
+  max-width: 600px;
+  border: 3px solid #F6CC26;
+  border-radius: 10px;
+}

@@ -1,0 +1,10 @@
+@charset "utf-8";
+/* CSS Document */
+
+#intro {margin-top: -10px; margin-left: -10px; position: absolute}
+
+#back {position: absolute; margin-left: 50px; margin-top: 40px}
+
+#play {position: absolute;margin-left: 600px; margin-top: 300px}
+
+#quit {position: absolute; margin-left: 600px; margin-top: 500px}

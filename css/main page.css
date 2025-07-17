@@ -1,0 +1,246 @@
+@charset "utf-8";
+/* CSS Document */
+body { background-color: #321D4D; width:1470px;margin-left: 0.2px;}
+header {
+  width: 100%;
+  height: 70px;
+  background-color: #321D4D;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+
+.logo {margin-top: -20px;
+  height: 70px;
+}
+
+/* Underline bar */
+.nav-underline {
+  height: 30px;
+  width: 1480px;
+  background: #8455B5;
+  }
+
+.intro-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 700px;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+
+/* Text */
+.intro-text h1 {
+  font-size: 45px;
+  letter-spacing: 3px;
+  color: #d7a4ff;
+  padding-left: 60px;
+}
+
+.intro-text h2 {
+  font-size: 35px;
+  letter-spacing: 3px;
+  color: #d7a4ff;
+  padding-left:120px;
+}
+
+.intro-text p {
+  font-size: 30px;
+  letter-spacing: 1px;
+  line-height: 1.4;
+  color: #d7a4ff;
+  padding-left: 120px;
+}
+
+/* Image Group */
+.intro-images {
+  position: relative;
+  width: 100%;
+  max-width: 450px;
+  height: 350px;
+  margin-top: -210px;
+}
+
+/* Purple orb background */
+.purple {
+  position: absolute;
+  width: 550px;
+  top: -40px;
+  left: -90px;
+  z-index: 1;
+}
+
+/* Bubble */
+.bubble {
+  position: absolute;
+  width: 600px;
+  top: 195px;
+  left: -440px;
+  z-index: 2;
+}
+
+/* Selfie */
+.selfie {
+  position: absolute;
+  height: 700px; width: 470px;
+  bottom: -327px;
+  left: -325px;
+  z-index: 3;
+
+  border-bottom-left-radius: 40% 50%;
+  border-bottom-right-radius: 60% 50%;
+  border-top-left-radius: 20% 10%;
+  border-top-right-radius: 20% 10%;
+  overflow: hidden;
+}
+
+#my-games {
+  border: 5px solid;
+  width: 1300px;
+  height: 500px;
+  margin-top: 250px;
+  margin-left: 60px;
+  padding: 30px;
+  background-color: black;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+/* Carousel Wrapper holds everything including arrows */
+.carousel-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 1300px;
+  margin: 0 auto 20px auto;
+}
+
+/* Arrows */
+.arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 48px;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.arrow.left {
+  left: 0px; /* adjust as needed */
+}
+
+.arrow.right {
+  right: 0px;
+}
+
+/* Carousel: view window */
+.carousel {
+  overflow: visible;
+  width: 1620px;
+  height: 230px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slider-track {padding-top: 60px;
+  padding-left: 600px; /* keep this if it works for your layout */
+  display: flex;
+  width: 300%;
+  transition: transform 0.5s ease-in-out;
+  align-items: center;
+  justify-content: center;
+}
+.slider-track img {
+  margin: 0 10px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+/* Center image */
+.slider-track img:nth-child(2) {
+  width: 500px;
+  height: 300px;
+  z-index: 2;
+  transform: scale(1.05);
+}
+
+/* Side images */
+.slider-track img:nth-child(1),
+.slider-track img:nth-child(3) {
+  width: 300px;
+  height: 200px;
+  opacity: 0.7;
+}
+
+/* Game title */
+#game-title {padding-top: 60px;
+  font-size: 32px;
+  margin: 15px 0;
+}
+
+/* Read More button */
+#read-more {
+  padding: 10px 20px;
+  font-weight: bold;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+/* ===== THEME COLORS ===== */
+.valorant {
+  border-color: red;
+  color: red;
+}
+
+.valorant #read-more {
+  background: red;
+  color: white;
+}
+
+.marvel {
+  border-color: gold;
+  color: gold;
+}
+
+.marvel #read-more {
+  background: gold;
+  color: black;
+}
+
+.overwatch {
+  border-color: white;
+  color: white;
+}
+
+.overwatch #read-more {
+  background: white;
+  color: black;
+}
+
+.city {
+  border-color: blue;
+  color:blue;
+}
+
+.city #read-more {
+  background: blue;
+  color: black;
+}
+
+
+
+
+
+
+
