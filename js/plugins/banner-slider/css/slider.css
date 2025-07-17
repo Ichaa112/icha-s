@@ -1,0 +1,82 @@
+/* Timothy Framework - www.timothyframework.com */
+/* This work is licensed under the MIT License - http://www.opensource.org/licenses/mit-license.php */
+
+
+/* Color Legend */
+
+
+
+
+#slider {
+    width: 1480px; /* important to be same as image width */
+    height: 650px; /* important to be same as image height */
+    position: absolute; /* important */
+    overflow: hidden; /* important */
+    text-align: left;
+	
+}
+
+#sliderContent {
+    width: 1500px; /* important to be same as image width or wider */
+    position: absolute;
+    top: 0;
+    margin-left: 4px;
+}
+
+.sliderImage {
+    float: left;
+    position: relative;
+    display: none; /* controlled by JS if you’re rotating images */
+}
+
+.sliderImage span {
+    position: absolute; /* IMPORTANT: makes it float over image */
+    top: 0;
+    left: 1200px; /* match your .top class */
+    padding: 10px;
+	padding-right: 5px;
+    width: 300px;
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0.7); /* modern transparency */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 150%;
+    color: #fff;
+    display: none; /* default hidden */
+    z-index: 2;
+}
+
+.sliderImage:hover span {
+    display: block; /* show on hover */
+}
+
+.sliderImage span strong {
+    color: white;
+    font-size: 22px;
+    line-height: 300%;
+}
+
+.clear {
+    clear: both;
+}
+
+.top {
+    top: 0;
+    left: 600px;
+}
+
+.bottom {
+    bottom: 0;
+    left: 600px;
+}
+
+/* optional reset */
+#slider ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#slider ul li {
+    margin-left: 0px;
+}
